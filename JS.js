@@ -19,7 +19,7 @@ async function ask() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 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"  
+      "Authorization": "Bearer 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"  
     },
     body: JSON.stringify({
       model: "gpt-4o-mini",
@@ -35,4 +35,5 @@ async function ask() {
   // Gợi ý trigger motion (nếu model có animation)
   // if (model.motion) model.motion("tap");
 }
+
 
